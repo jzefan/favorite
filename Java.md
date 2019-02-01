@@ -2,7 +2,7 @@
   1. https://blog.scottlogic.com/2016/07/28/java-enums-how-to-use-them-smarter.html
   2. https://howtodoinjava.com/java/enum/guide-for-understanding-enum-in-java/
 
-## git merge 
+## Git merge 
   - https://stackoverflow.com/questions/5601931/what-is-the-best-and-safest-way-to-merge-a-git-branch-into-master
   - https://git-scm.com/book/en/v2/Git-Branching-Rebasing (The book is very good!)
   - http://gitready.com/
@@ -28,7 +28,7 @@ git push origin master
 ```java
 @GetMapping(value = "/add")
 ResponseEntity<ResultData> add(@RequestParam @NotNull Integer a, @RequestParam @NotNull Integer b);
-``` TO
+``` 
 ```java
 @GetMapping(value = "/add")
 ResponseEntity<ResultData> add(@RequestParam("a") @NotNull Integer a, @RequestParam("b") @NotNull Integer b);
@@ -36,4 +36,5 @@ ResponseEntity<ResultData> add(@RequestParam("a") @NotNull Integer a, @RequestPa
   
 ## Good Q&&A on stackoverflow
  - [Avoid unchecked assignment in a map with multiple value types?](https://stackoverflow.com/questions/22467645/avoid-unchecked-assignment-in-a-map-with-multiple-value-types)
- 
+
+
