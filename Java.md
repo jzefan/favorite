@@ -36,5 +36,8 @@ ResponseEntity<ResultData> add(@RequestParam("a") @NotNull Integer a, @RequestPa
   
 ## Good Q&&A on stackoverflow
  - [Avoid unchecked assignment in a map with multiple value types?](https://stackoverflow.com/questions/22467645/avoid-unchecked-assignment-in-a-map-with-multiple-value-types)
+ 
+## 个人博客
+ - https://yezhwi.github.io/ 微服务，java等
 
 
