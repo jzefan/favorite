@@ -40,4 +40,6 @@ ResponseEntity<ResultData> add(@RequestParam("a") @NotNull Integer a, @RequestPa
 ## 个人博客
  - https://yezhwi.github.io/ 微服务，java等
 
+[How to Replace Many if Statements in Java](https://www.baeldung.com/java-replace-if-statements)
+[Java without if](http://ashtonkemerling.com/blog/2017/01/26/java-without-if/)
 
